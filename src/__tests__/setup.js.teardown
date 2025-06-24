@@ -1,0 +1,8 @@
+let mongod;
+
+module.exports = async () => {
+  if (global.__MONGO_URI__ && global.__MONGOD__) {
+    mongod = global.__MONGOD__;
+    await mongod.stop();
+  }
+};
