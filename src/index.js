@@ -12,6 +12,7 @@ const expenseRoutes = require('./routes/expenseRoutes');
 const passwordResetRoutes = require('./routes/passwordResetRoutes');
 const recurringRoutes = require('./routes/recurringRoutes');
 const coachRoutes = require('../routes/coach');
+const notificationRoutes = require('./routes/notificationRoutes');
 
 // Start recurring transaction scheduler
 require('./recurringScheduler');
@@ -44,6 +45,7 @@ app.use('/api/expenses', expenseRoutes);
 app.use('/api/auth', passwordResetRoutes);
 app.use('/api/recurring', recurringRoutes);
 app.use('/api/coach', coachRoutes);
+app.use('/api/notifications', notificationRoutes);
 
 // Basic route
 app.get('/', (req, res) => {

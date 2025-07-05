@@ -11,7 +11,8 @@ exports.forgotPassword = async (req, res) => {
     user.resetPasswordToken = token;
     user.resetPasswordExpires = Date.now() + 3600000; // 1 hour
     await user.save();
-    const resetUrl = `https://localhost:5000/api/auth/reset-password?token=${token}`;
+    const baseUrl = process.env.BASE_URL || 'https://localhost:5000';
+    const resetUrl = `${baseUrl}/api/auth/reset-password?token=${token}`;
     await sendEmail(user.email, 'Password Reset', `Reset your password: ${resetUrl}`);
   }
   res.json({ message: 'If an account with that email exists, a reset link has been sent.' });
