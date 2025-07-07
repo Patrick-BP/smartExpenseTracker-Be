@@ -1,0 +1,886 @@
+--------- beginning of main
+07-06 01:01:06.456  1114  1295 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+07-06 01:01:13.597   691   923 D androidtc: Initializing SystemTextClassifier, type = System
+--------- beginning of system
+07-06 01:01:13.599   691   923 E ClipboardService: Denying clipboard access to com.android.chrome, application is not in focus nor is it a system service for user 0
+07-06 01:01:13.599  1612  1612 I AiAiTextClassifier: onCreateTextClassificationSession = TextClassificationSessionId {d745a78b-3ff1-4882-8c85-697dd91a408e}
+07-06 01:01:13.602  1612  2023 I AiAiTranslate: C2T - not in a conversation
+07-06 01:01:13.602   956   956 I ClipboardListener: Clipboard overlay suppressed.
+07-06 01:01:13.605  1612  2064 I AiAiTextClassifier: GenerateLinks did not find valid links, returning empty result
+07-06 01:01:13.606   691   924 E ClipboardService: Denying clipboard access to com.android.chrome, application is not in focus nor is it a system service for user 0
+07-06 01:01:13.609   956   956 I ClipboardListener: Clipboard overlay suppressed.
+07-06 01:01:13.611  1612  2064 I AiAiTextClassifier: GenerateLinks did not find valid links, returning empty result
+07-06 01:01:14.491  1116  1116 D b/387844520: getOutlineOffsetX: measured width = 198, mNormalizedIconSize = 182, last updated width = 198
+07-06 01:01:14.493   691  1850 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@ef8d0396 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-06 01:01:14.494   691  1850 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+07-06 01:01:14.494   691  1850 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+07-06 01:01:14.494   691  1850 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+07-06 01:01:14.494   691  1850 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+07-06 01:01:14.496  1116  1172 W HWUI    : Image decoding logging dropped!
+07-06 01:01:14.496   691  1843 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+07-06 01:01:14.499   691  1850 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+07-06 01:01:14.502   691  1850 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 xflg=0x4 cmp=com.pat33.SmartExpenseTracker/.MainActivity bnds=[985,2253][1183,2476]} with LAUNCH_SINGLE_TASK from uid 10180 (sr=227924888) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+07-06 01:01:14.503   956   997 V WindowManagerShell: Transition requested (#41): android.os.BinderProxy@4b85841 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=59 effectiveUid=10217 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pat33.SmartExpenseTracker/.MainActivity } baseActivity=ComponentInfo{com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity} topActivity=ComponentInfo{com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity} origActivity=null realActivity=ComponentInfo{com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity} numActivities=1 lastActiveTime=1754955 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@a791e6} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 156 - 0, 0) topActivityInfo=ActivityInfo{3b16327 com.pat33.SmartExpenseTracker.MainActivity} launchCookies=[android.os.BinderProxy@5e749d4] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(329, 830 - 952, 2110) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1280, 2856) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@9f1377d, appThread = android.app.IApplicationThread$Stub$Proxy@24ae672, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 41 }
+07-06 01:01:14.503   956   997 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+07-06 01:01:14.503   956   997 V WindowManagerShell: RemoteTransition directly requested for (#41) android.os.BinderProxy@4b85841: RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@9f1377d, appThread = android.app.IApplicationThread$Stub$Proxy@24ae672, debugName = QuickstepLaunch }
+07-06 01:01:14.503   956   997 V WindowManagerShell: Transition (#41): request handled by DefaultMixedHandler
+07-06 01:01:14.504   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.505  1116  1116 D StatsLog: LAUNCHER_APP_LAUNCH_TAP
+07-06 01:01:14.505  1116  1116 D StatsLog: LAUNCHER_HOTSEAT_RANKED
+07-06 01:01:14.506  1116  1172 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=predictions/hotseat
+07-06 01:01:14.507   613   682 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.507   613   682 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.508   535   552 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-06 01:01:14.510  1116  1116 W SplitSelectStateCtor: Missing session instanceIds
+07-06 01:01:14.510  1116  1116 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+07-06 01:01:14.510   691   719 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@ef8d0396 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-06 01:01:14.512   956  1027 W HWUI    : Image decoding logging dropped!
+07-06 01:01:14.514   956   997 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=603
+07-06 01:01:14.514   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.514   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.514   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.514   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.514   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.515   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.515   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.515   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.516   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.516   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.516   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.516   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.516   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.516   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.516   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.516   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.516   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.516   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.517   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.517   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.517   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.517   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.517   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.517   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.517   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.517   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.518   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.518   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.518   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.518   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.519   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.519   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.519   462   462 D Zygote  : Forked child process 6450
+07-06 01:01:14.519   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.519   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.519   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.519   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.519   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.519   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.519   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.520   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.520   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.520   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.520   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.520   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.520   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.520   535   535 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-06 01:01:14.520   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.520   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.521   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.521   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.521   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.521   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.521   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.521   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.521   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.521   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.521   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.521   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.521   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.521   691   719 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.523   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.524   691  1844 D CoreBackPreview: Window{8116c23 u0 Splash Screen com.pat33.SmartExpenseTracker}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@704a77f, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+07-06 01:01:14.525   691   726 I ActivityManager: Start proc 6450:com.pat33.SmartExpenseTracker/u0a217 for next-top-activity {com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity}
+07-06 01:01:14.525   691   726 I ActivityManager: ProcessObserver broadcast disabled
+07-06 01:01:14.532  6450  6450 I tExpenseTracker: Using CollectorTypeCMC GC.
+07-06 01:01:14.534  6450  6450 W tExpenseTracker: Unexpected CPU variant for x86: x86_64.
+07-06 01:01:14.534  6450  6450 W tExpenseTracker: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+07-06 01:01:14.539  6450  6450 E tExpenseTracker: Not starting debugger since process cannot load the jdwp agent.
+07-06 01:01:14.540   956  1433 V WindowManagerShell: onTransitionReady(transaction=2967822406178)
+07-06 01:01:14.540   956   997 V WindowManagerShell: onTransitionReady (#41) android.os.BinderProxy@4b85841: {id=41 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+07-06 01:01:14.540   956   997 V WindowManagerShell:         {m=OPEN f=NONE leash=Surface(name=Task=59)/@0x123f9ed sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0 taskParent=-1},
+07-06 01:01:14.540   956   997 V WindowManagerShell:         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xcc5d022 sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0 taskParent=-1},
+07-06 01:01:14.540   956   997 V WindowManagerShell:         {m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{b98646d showWhenLocked=false})/@0x1f02ab3 sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0}
+07-06 01:01:14.540   956   997 V WindowManagerShell:     ]}
+07-06 01:01:14.540   956   997 V WindowManagerShell: Playing animation for (#41) android.os.BinderProxy@4b85841@0
+07-06 01:01:14.540   956   997 V WindowManagerShell:  try firstHandler com.android.wm.shell.transition.DefaultMixedHandler@ac2544c
+07-06 01:01:14.540   956   997 V WindowManagerShell: Mixed transition for opening an intent with a remote transition and PIP or Desktop #41
+07-06 01:01:14.540   956   997 V WindowManagerShell: tryAnimateOpenIntentWithRemoteAndPipOrDesktop
+07-06 01:01:14.540   956   997 V WindowManagerShell:  Delegate animation for (#41) to RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@9f1377d, appThread = android.app.IApplicationThread$Stub$Proxy@24ae672, debugName = QuickstepLaunch }
+07-06 01:01:14.541   691   716 V WindowManager: Sent Transition (#41) createdAt=07-06 01:01:14.495 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=59 effectiveUid=10217 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pat33.SmartExpenseTracker/.MainActivity } baseActivity=ComponentInfo{com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity} topActivity=ComponentInfo{com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity} origActivity=null realActivity=ComponentInfo{com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity} numActivities=1 lastActiveTime=1754955 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{bc63c9b Task{3466e87 #59 type=standard A=10217:com.pat33.SmartExpenseTracker}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 156 - 0, 0) topActivityInfo=ActivityInfo{4c13838 com.pat33.SmartExpenseTracker.MainActivity} launchCookies=[android.os.BinderProxy@8b63011] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(329, 830 - 952, 2110) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1280, 2856) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@36d9fe4, appThread = android.app.IApplicationThread$Stub$Proxy@abcbc4d, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 41 }
+07-06 01:01:14.541   691   716 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+07-06 01:01:14.541   691   716 V WindowManager:     info={id=41 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+07-06 01:01:14.541   691   716 V WindowManager:         {WCT{RemoteToken{bc63c9b Task{3466e87 #59 type=standard A=10217:com.pat33.SmartExpenseTracker}}} m=OPEN f=NONE leash=Surface(name=Task=59)/@0xde52f95 sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0 taskParent=-1},
+07-06 01:01:14.541   691   716 V WindowManager:         {WCT{RemoteToken{1041690 Task{8740a57 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x7f5c845 sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0 taskParent=-1},
+07-06 01:01:14.541   691   716 V WindowManager:         {m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{b98646d showWhenLocked=false})/@0x83044bf sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0}
+07-06 01:01:14.541   691   716 V WindowManager:     ]}
+07-06 01:01:14.542   956   997 V WindowManagerShell:  animated by firstHandler
+07-06 01:01:14.543  6450  6450 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+07-06 01:01:14.544  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.545  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.550   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.556  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.567  6450  6450 D nativeloader: Configuring clns-9 for other apk /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/lib/x86_64:/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.pat33.SmartExpenseTracker
+07-06 01:01:14.568  6450  6450 D CompatChangeReporter: Compat change id reported: 202956589; UID 10217; state: ENABLED
+07-06 01:01:14.570  6450  6450 I tExpenseTracker: AssetManager2(0x70627c9a6878) locale list changing from [] to [en-US]
+07-06 01:01:14.572  6450  6450 V GraphicsEnvironment: Currently set values for:
+07-06 01:01:14.572  6450  6450 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+07-06 01:01:14.572  6450  6450 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+07-06 01:01:14.572  6450  6450 V GraphicsEnvironment: com.pat33.SmartExpenseTracker is not listed in per-application setting
+07-06 01:01:14.572  6450  6450 V GraphicsEnvironment: ANGLE allowlist from config: 
+07-06 01:01:14.572  6450  6450 V GraphicsEnvironment: com.pat33.SmartExpenseTracker is not listed in ANGLE allowlist or settings, returning default
+07-06 01:01:14.572  6450  6450 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+07-06 01:01:14.580  6450  6450 W FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+07-06 01:01:14.581  6450  6450 I FirebaseInitProvider: FirebaseApp initialization unsuccessful
+07-06 01:01:14.584  6450  6450 D CompatChangeReporter: Compat change id reported: 279646685; UID 10217; state: ENABLED
+07-06 01:01:14.585  6450  6450 W SoLoader: Initializing SoLoader: 0
+07-06 01:01:14.585  6450  6450 W SoLoader: Recording new base apk path: /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk
+07-06 01:01:14.585  6450  6450 W SoLoader: Previously recorded 0 base apk paths.
+07-06 01:01:14.586  6450  6450 D CompatChangeReporter: Compat change id reported: 312399441; UID 10217; state: ENABLED
+07-06 01:01:14.586  6450  6450 I SoLoader: Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+07-06 01:01:14.586  6450  6450 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+07-06 01:01:14.586  6450  6450 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64]]
+07-06 01:01:14.591  6450  6450 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/lib/x86_64 flags = 0]]
+07-06 01:01:14.591  6450  6450 I SoLoader: init finish: 4 SO sources prepared
+07-06 01:01:14.591  6450  6450 W SoLoader: SoLoader initialized: 8
+07-06 01:01:14.600  6450  6450 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libc++_shared.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:14.603  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.603   486  4920 I RanchuHwc: logCompositionFallbackIfChanged: layer 160 CompositionType fallback from 2 to 1
+07-06 01:01:14.603   486  4920 I RanchuHwc: logCompositionFallbackIfChanged: layer 161 CompositionType fallback from 2 to 1
+07-06 01:01:14.606  6450  6450 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libjsi.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:14.611  6450  6450 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libfbjni.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:14.616  6450  6450 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libreactnative.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: Entering merged library JNI_OnLoad.
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: Preparing 11 pre-merged libs (including stub)
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x70610f5d17a0
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x70610f6aa290
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x70610f6b2130
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x70610f6d7530
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x70610f76e910
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x70610f78cbe0
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x70610f7a78b0
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x70610f82aa60
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x70610f832620
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x70610f837e50
+07-06 01:01:14.616  6450  6450 D jni_lib_merge: About to register 10 actual methods.
+07-06 01:01:14.620  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.627  6450  6450 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libreact_codegen_rnscreens.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: Entering merged library JNI_OnLoad.
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: Preparing 11 pre-merged libs (including stub)
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x70610f5d17a0
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x70610f6aa290
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x70610f6b2130
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x70610f6d7530
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x70610f76e910
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x70610f78cbe0
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x70610f7a78b0
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x70610f82aa60
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x70610f832620
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x70610f837e50
+07-06 01:01:14.627  6450  6450 D jni_lib_merge: About to register 10 actual methods.
+07-06 01:01:14.631  6450  6450 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libreact_codegen_rnsvg.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:14.631  6450  6450 D jni_lib_merge: Entering merged library JNI_OnLoad.
+07-06 01:01:14.631  6450  6450 D jni_lib_merge: Preparing 11 pre-merged libs (including stub)
+07-06 01:01:14.631  6450  6450 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x70610f5d17a0
+07-06 01:01:14.632  6450  6450 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x70610f6aa290
+07-06 01:01:14.632  6450  6450 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x70610f6b2130
+07-06 01:01:14.632  6450  6450 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x70610f6d7530
+07-06 01:01:14.632  6450  6450 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x70610f76e910
+07-06 01:01:14.632  6450  6450 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x70610f78cbe0
+07-06 01:01:14.632  6450  6450 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x70610f7a78b0
+07-06 01:01:14.632  6450  6450 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x70610f82aa60
+07-06 01:01:14.632  6450  6450 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x70610f832620
+07-06 01:01:14.632  6450  6450 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x70610f837e50
+07-06 01:01:14.632  6450  6450 D jni_lib_merge: About to register 10 actual methods.
+07-06 01:01:14.637  6450  6450 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libreact_codegen_safeareacontext.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:14.637  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.641  6450  6450 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libreact_codegen_rnpicker.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: Entering merged library JNI_OnLoad.
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: Preparing 11 pre-merged libs (including stub)
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x70610f5d17a0
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x70610f6aa290
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x70610f6b2130
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x70610f6d7530
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x70610f76e910
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x70610f78cbe0
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x70610f7a78b0
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x70610f82aa60
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x70610f832620
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x70610f837e50
+07-06 01:01:14.641  6450  6450 D jni_lib_merge: About to register 10 actual methods.
+07-06 01:01:14.643  6450  6450 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libappmodules.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:14.645   691  1843 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ENABLE_FAKE_FOCUS
+07-06 01:01:14.648   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.648   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:14.649  6450  6464 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+07-06 01:01:14.653  6450  6450 I tExpenseTracker: AssetManager2(0x70627c9a8df8) locale list changing from [] to [en-US]
+07-06 01:01:14.657  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.657  6450  6450 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+07-06 01:01:14.659  6450  6450 I tExpenseTracker: AssetManager2(0x70627c9aad38) locale list changing from [] to [en-US]
+07-06 01:01:14.662  6450  6450 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+07-06 01:01:14.670  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.679  6450  6450 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+07-06 01:01:14.679  6450  6450 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+07-06 01:01:14.679  6450  6468 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+07-06 01:01:14.680  6450  6468 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+07-06 01:01:14.680  6450  6468 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+07-06 01:01:14.680  6450  6468 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactContext(): Creating BridgelessReactContext
+07-06 01:01:14.680  6450  6468 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+07-06 01:01:14.682  6450  6450 D CompatChangeReporter: Compat change id reported: 309578419; UID 10217; state: ENABLED
+07-06 01:01:14.684  6450  6450 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+07-06 01:01:14.687  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.700  6450  6468 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libhermes.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:14.702  6450  6450 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+07-06 01:01:14.702  6450  6450 W unknown:BridgelessReact: ReactContext.onHostResume()
+07-06 01:01:14.704  6450  6450 D CompatChangeReporter: Compat change id reported: 352594277; UID 10217; state: ENABLED
+07-06 01:01:14.705  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.708  6450  6468 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libhermestooling.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:14.709  6450  6468 D jni_lib_merge: Entering merged library JNI_OnLoad.
+07-06 01:01:14.709  6450  6468 D jni_lib_merge: Preparing 4 pre-merged libs (including stub)
+07-06 01:01:14.709  6450  6468 D jni_lib_merge: Preparing to register libhermes_executor_so.  onload_func: 0x706109766ee0
+07-06 01:01:14.709  6450  6468 D jni_lib_merge: Preparing to register libhermesinstancejni_so.  onload_func: 0x70610976e860
+07-06 01:01:14.709  6450  6468 D jni_lib_merge: Preparing to register libjsijniprofiler_so.  onload_func: 0x70610976ef30
+07-06 01:01:14.710  6450  6468 D jni_lib_merge: About to register 3 actual methods.
+07-06 01:01:14.710  6450  6450 D CompatChangeReporter: Compat change id reported: 349153669; UID 10217; state: ENABLED
+07-06 01:01:14.715  6450  6450 W HWUI    : Unknown dataspace 0
+07-06 01:01:14.721  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.729  6450  6464 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+07-06 01:01:14.730  6450  6464 I EGL_emulation: Opening libGLESv2_emulation.so
+07-06 01:01:14.737  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.750  6450  6464 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-06 01:01:14.750  6450  6464 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+07-06 01:01:14.754  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.770  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.773   691  1850 D CoreBackPreview: Window{7da75fe u0 com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@e2d47ac, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+07-06 01:01:14.788  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.804  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.809   691   716 I ActivityTaskManager: Displayed com.pat33.SmartExpenseTracker/.MainActivity for user 0: +308ms
+07-06 01:01:14.820  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.828   691   815 I ImeTracker: com.pat33.SmartExpenseTracker:96d5279c: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+07-06 01:01:14.830  6450  6450 D InsetsController: hide(ime(), fromIme=false)
+07-06 01:01:14.830  6450  6450 I ImeTracker: com.pat33.SmartExpenseTracker:96d5279c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+07-06 01:01:14.830  1453  1453 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+07-06 01:01:14.831  1453  1453 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+07-06 01:01:14.831   691  1843 I ImeTracker: system_server:63c8890d: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+07-06 01:01:14.832  1453  1453 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.pat33.SmartExpenseTracker, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+07-06 01:01:14.832  1453  1453 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+07-06 01:01:14.833   691  1844 W PackageConfigPersister: App-specific configuration not found for packageName: com.pat33.SmartExpenseTracker and userId: 0
+07-06 01:01:14.834   691   719 I ImeTracker: system_server:63c8890d: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-06 01:01:14.840  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.855  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.871  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.888  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.893  6450  6468 I ExpoModulesCore: ✅ AppContext was initialized
+07-06 01:01:14.905  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderColor'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.905  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.906  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderStyle'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.906  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.906  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderEndColor'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.906  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderTopColor'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.906  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderLeftColor'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.906  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderBlockColor'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.906  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderRightColor'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.907  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderStartColor'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.907  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderBottomColor'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.907  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderEndEndRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.907  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderTopEndRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.907  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderBlockEndColor'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.907  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderTopLeftRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.907  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderEndStartRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.907  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderStartEndRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.907  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderTopRightRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.907  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderTopStartRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.908  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderBlockStartColor'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.908  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderBottomEndRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.908  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderBottomLeftRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.908  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderStartStartRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.908  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderBottomRightRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.908  6450  6468 W ReactNativeJNI: Component property map contains multiple entries for 'borderBottomStartRadius'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-06 01:01:14.920  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.936  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.949  6450  6468 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+07-06 01:01:14.949  6450  6468 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Calling DevSupportManagerBase.onNewReactContextCreated(reactContext)
+07-06 01:01:14.950  6450  6468 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+07-06 01:01:14.950  6450  6450 W unknown:BridgelessReact: ReactContext.onHostResume()
+07-06 01:01:14.950  6450  6450 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+07-06 01:01:14.964  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.981  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:14.985  6450  6469 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libexpo-modules-core.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:14.990  6450  6469 D CompatChangeReporter: Compat change id reported: 63938206; UID 10217; state: ENABLED
+07-06 01:01:14.992  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+07-06 01:01:14.995  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+07-06 01:01:14.996  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+07-06 01:01:14.997  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenFooterManager
+07-06 01:01:14.997  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+07-06 01:01:14.998  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ModalScreenViewManager
+07-06 01:01:14.999  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+07-06 01:01:14.999  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContentWrapperManager
+07-06 01:01:15.000  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+07-06 01:01:15.001  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+07-06 01:01:15.002  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+07-06 01:01:15.006  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:15.007  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+07-06 01:01:15.007  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.picker.ReactDialogPickerManager
+07-06 01:01:15.008  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.picker.ReactPickerShadowNode
+07-06 01:01:15.008  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+07-06 01:01:15.008  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.picker.ReactDropdownPickerManager
+07-06 01:01:15.022  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:15.027  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$DefsViewManager
+07-06 01:01:15.028  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.VirtualViewManager$RenderableShadowNode
+07-06 01:01:15.029  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeMergeManager
+07-06 01:01:15.032  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+07-06 01:01:15.032  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewShadowNode
+07-06 01:01:15.033  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LinearGradientManager
+07-06 01:01:15.034  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeGaussianBlurManager
+07-06 01:01:15.036  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+07-06 01:01:15.037  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+07-06 01:01:15.038  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+07-06 01:01:15.040  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+07-06 01:01:15.041  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+07-06 01:01:15.043  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:15.044  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeColorMatrixManager
+07-06 01:01:15.046  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+07-06 01:01:15.047  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ClipPathViewManager
+07-06 01:01:15.049  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$SymbolManager
+07-06 01:01:15.051  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PatternManager
+07-06 01:01:15.053  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeBlendManager
+07-06 01:01:15.055  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+07-06 01:01:15.056  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.SvgViewManager
+07-06 01:01:15.057  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+07-06 01:01:15.058  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchShadowNode
+07-06 01:01:15.059  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$UseViewManager
+07-06 01:01:15.060  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$CircleViewManager
+07-06 01:01:15.061  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:15.062  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TSpanViewManager
+07-06 01:01:15.064  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FilterManager
+07-06 01:01:15.066  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MarkerManager
+07-06 01:01:15.068  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+07-06 01:01:15.070  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ForeignObjectManager
+07-06 01:01:15.072  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$EllipseViewManager
+07-06 01:01:15.075  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LineViewManager
+07-06 01:01:15.077  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+07-06 01:01:15.078  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+07-06 01:01:15.080  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeFloodManager
+07-06 01:01:15.081  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:15.081  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:15.081  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$GroupViewManager
+07-06 01:01:15.082   956   997 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#41) android.os.BinderProxy@4b85841@0
+07-06 01:01:15.083  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextViewManager
+07-06 01:01:15.084   691   716 V WindowManager: Finish Transition (#41): created at 07-06 01:01:14.495 collect-started=0.022ms request-sent=6.505ms started=17.911ms ready=42.457ms sent=43.82ms commit=15.319ms finished=588.169ms
+07-06 01:01:15.087   956   997 V WindowManagerShell: Track 0 became idle
+07-06 01:01:15.087   956   997 V WindowManagerShell: All active transition animations finished
+07-06 01:01:15.088  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ImageViewManager
+07-06 01:01:15.090  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeCompositeManager
+07-06 01:01:15.092  1116  1116 D b/387844520: getOutlineOffsetX: measured width = 198, mNormalizedIconSize = 182, last updated width = 198
+07-06 01:01:15.092  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+07-06 01:01:15.093  1116  1116 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+07-06 01:01:15.093  1116  1116 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+07-06 01:01:15.094  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RadialGradientManager
+07-06 01:01:15.096  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MaskManager
+07-06 01:01:15.098  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+07-06 01:01:15.099  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RectViewManager
+07-06 01:01:15.100  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextPathViewManager
+07-06 01:01:15.102  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+07-06 01:01:15.103  1116  1116 D BaseDepthController: setSurface:
+07-06 01:01:15.103  1116  1116 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+07-06 01:01:15.103  1116  1116 D BaseDepthController: 	mBaseSurface: null
+07-06 01:01:15.104  1116  1116 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-06 01:01:15.104  1116  1116 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+07-06 01:01:15.104  1116  1116 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:4)
+07-06 01:01:15.104  1116  1116 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:1)
+07-06 01:01:15.104  1116  1116 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:34)
+07-06 01:01:15.104  1116  1116 D StatsLog: LAUNCHER_ONSTOP
+07-06 01:01:15.104  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeOffsetManager
+07-06 01:01:15.105  1116  1116 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+07-06 01:01:15.108   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:15.109  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PathViewManager
+07-06 01:01:15.110  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+07-06 01:01:15.112  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+07-06 01:01:15.113  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+07-06 01:01:15.113  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+07-06 01:01:15.115  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+07-06 01:01:15.115  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+07-06 01:01:15.115  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+07-06 01:01:15.116  6450  6469 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+07-06 01:01:15.120  6450  6469 W BridgelessReactContext: [WARNING] Bridgeless doesn't support CatalystInstance. Accessing an API that's not part of the new architecture is not encouraged usage.
+07-06 01:01:15.125  6450  6469 I ExpoModulesCore: ✅ JSI interop was installed
+07-06 01:01:15.127  6450  6469 I ExpoModulesCore: ✅ Constants were exported
+07-06 01:01:15.156  6450  6469 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/librnscreens.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!classes2.dex): ok
+07-06 01:01:15.156   613   613 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:15.157   613   613 W IPCThreadState: Sending oneway calls to frozen process.
+07-06 01:01:15.163   956  1025 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@5ecd1ca
+07-06 01:01:15.163   691  1844 D CoreBackPreview: Window{8116c23 u0 Splash Screen com.pat33.SmartExpenseTracker EXITING}: Setting back callback null
+07-06 01:01:15.166  6450  6469 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libworklets.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:15.175  6450  6469 D nativeloader: Load /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!/lib/x86_64/libreanimated.so using class loader ns clns-9 (caller=/data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk): ok
+07-06 01:01:15.177  6450  6469 W System.err: java.lang.NoSuchFieldException: No field mIsFinished in class Lcom/facebook/react/bridge/queue/MessageQueueThreadImpl; (declaration of 'com.facebook.react.bridge.queue.MessageQueueThreadImpl' appears in /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk)
+07-06 01:01:15.178  6450  6469 W System.err: 	at java.lang.Class.getDeclaredField(Native Method)
+07-06 01:01:15.178  6450  6469 W System.err: 	at com.swmansion.worklets.WorkletsMessageQueueThreadBase.quitSynchronous(WorkletsMessageQueueThreadBase.java:54)
+07-06 01:01:15.178  6450  6469 W System.err: 	at com.swmansion.reanimated.NativeProxy.initHybrid(Native Method)
+07-06 01:01:15.178  6450  6469 W System.err: 	at com.swmansion.reanimated.NativeProxy.<init>(NativeProxy.java:47)
+07-06 01:01:15.178  6450  6469 W System.err: 	at com.swmansion.reanimated.NodesManager.initWithContext(NodesManager.java:148)
+07-06 01:01:15.178  6450  6469 W System.err: 	at com.swmansion.reanimated.ReanimatedModule.installTurboModule(ReanimatedModule.java:159)
+07-06 01:01:15.178  6450  6469 W System.err: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+07-06 01:01:15.178  6450  6469 W System.err: 	at android.os.Handler.handleCallback(Handler.java:995)
+07-06 01:01:15.178  6450  6469 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+07-06 01:01:15.178  6450  6469 W System.err: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:20)
+07-06 01:01:15.178  6450  6469 W System.err: 	at android.os.Looper.loopOnce(Looper.java:248)
+07-06 01:01:15.178  6450  6469 W System.err: 	at android.os.Looper.loop(Looper.java:338)
+07-06 01:01:15.178  6450  6469 W System.err: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$1(MessageQueueThreadImpl.kt:175)
+07-06 01:01:15.178  6450  6469 W System.err: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$ldnZnqelhYFctGaUKkOKYj5rxo4(Unknown Source:0)
+07-06 01:01:15.178  6450  6469 W System.err: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+07-06 01:01:15.178  6450  6469 W System.err: 	at java.lang.Thread.run(Thread.java:1119)
+07-06 01:01:15.210  6450  6469 E ReactNativeJS: [runtime not ready]: Invariant Violation: TurboModuleRegistry.getEnforcing(...): 'RNGestureHandlerModule' could not be found. Verify that a module by this name is registered in the native binary., js engine: hermes
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: ReactHost{0}.handleHostException(message = "[runtime not ready]: Invariant Violation: TurboModuleRegistry.getEnforcing(...): 'RNGestureHandlerModule' could not be found. Verify that a module by this name is registered in the native binary., js engine: hermes, stack:
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: invariant@1:167055
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: getEnforcing@1:166898
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: anonymous@1:1351015
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: loadModuleImplementation@1:47929
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: guardedLoadModule@1:47459
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: metroRequire@1:47089
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: anonymous@1:1350916
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: loadModuleImplementation@1:47929
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: guardedLoadModule@1:47459
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: metroRequire@1:47089
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: anonymous@1:1077398
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: loadModuleImplementation@1:47929
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: guardedLoadModule@1:47459
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: metroRequire@1:47089
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: anonymous@1:1076257
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: loadModuleImplementation@1:47929
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: guardedLoadModule@1:47459
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: metroRequire@1:47089
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: anonymous@1:1074189
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: loadModuleImplementation@1:47929
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: guardedLoadModule@1:47459
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: metroRequire@1:47089
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: anonymous@1:1073845
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: loadModuleImplementation@1:47929
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: guardedLoadModule@1:47459
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: metroRequire@1:47089
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: anonymous@1:1068074
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: loadModuleImplementation@1:47929
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: guardedLoadModule@1:47459
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: metroRequire@1:47089
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: anonymous@1:1066752
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: loadModuleImplementation@1:47929
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: guardedLoadModule@1:47459
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: metroRequire@1:47089
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: anonymous@1:1059313
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: loadModuleImplementation@1:47929
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: guardedLoadModule@1:47459
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: metroRequire@1:47089
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: anonymous@1:851229
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: loadModuleImplementation@1:47929
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: guardedLoadModule@1:47459
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: metroRequire@1:47089
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: anonymous@1:849931
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: loadModuleImplementation@1:47929
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: guardedLoadModule@1:47459
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: metroRequire@1:47089
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: anonymous@1:100308
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: loadModuleImplementation@1:47929
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: guardedLoadModule@1:47416
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: metroRequire@1:47089
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: global@1:46617
+07-06 01:01:15.212  6450  6469 W unknown:BridgelessReact: ")
+07-06 01:01:15.213  6450  6469 E libc++abi: terminating due to uncaught exception of type facebook::jni::JniException: com.facebook.react.common.JavascriptException: [runtime not ready]: Invariant Violation: TurboModuleRegistry.getEnforcing(...): 'RNGestureHandlerModule' could not be found. Verify that a module by this name is registered in the native binary., js engine: hermes, stack:
+07-06 01:01:15.213  6450  6469 E libc++abi: invariant@1:167055
+07-06 01:01:15.213  6450  6469 E libc++abi: getEnforcing@1:166898
+07-06 01:01:15.213  6450  6469 E libc++abi: anonymous@1:1351015
+07-06 01:01:15.213  6450  6469 E libc++abi: loadModuleImplementation@1:47929
+07-06 01:01:15.213  6450  6469 E libc++abi: guardedLoadModule@1:47459
+07-06 01:01:15.213  6450  6469 E libc++abi: metroRequire@1:47089
+07-06 01:01:15.213  6450  6469 E libc++abi: anonymous@1:1350916
+07-06 01:01:15.213  6450  6469 E libc++abi: loadModuleImplementation@1:47929
+07-06 01:01:15.213  6450  6469 E libc++abi: guardedLoadModule@1:47459
+07-06 01:01:15.213  6450  6469 E libc++abi: metroRequire@1:47089
+07-06 01:01:15.213  6450  6469 E libc++abi: anonymous@1:1077398
+07-06 01:01:15.213  6450  6469 E libc++abi: loadModuleImplementation@1:47929
+07-06 01:01:15.213  6450  6469 E libc++abi: guardedLoadModule@1:47459
+07-06 01:01:15.213  6450  6469 E libc++abi: metroRequire@1:47089
+07-06 01:01:15.213  6450  6469 E libc++abi: anonymous@1:1076257
+07-06 01:01:15.213  6450  6469 E libc++abi: loadModuleImplementation@1:47929
+07-06 01:01:15.213  6450  6469 E libc++abi: guardedLoadModule@1:47459
+07-06 01:01:15.213  6450  6469 E libc++abi: metroRequire@1:47089
+07-06 01:01:15.213  6450  6469 E libc++abi: anonymous@1:1074189
+07-06 01:01:15.213  6450  6469 E libc++abi: loadModuleImplementation@1:47929
+07-06 01:01:15.213  6450  6469 E libc++abi: guardedLoadModule@1:47459
+07-06 01:01:15.213  6450  6469 E libc++abi: metroRequire@1:47089
+07-06 01:01:15.213  6450  6469 E libc++abi: anonymous@1:1073845
+07-06 01:01:15.213  6450  6469 E libc++abi: loadModuleImplementation@1:47929
+07-06 01:01:15.213  6450  6469 E libc++abi: guardedLoadModule@1:47459
+07-06 01:01:15.213  6450  6469 E libc++abi: metroRequire@1:47089
+07-06 01:01:15.213  6450  6469 E libc++abi: anonymous@1:1068074
+07-06 01:01:15.213  6450  6469 E libc++abi: loadModuleImpleme
+--------- beginning of crash
+07-06 01:01:15.213  6450  6469 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 6469 (mqt_v_js), pid 6450 (tExpenseTracker)
+07-06 01:01:15.263  6488  6488 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdTombstoneProto
+07-06 01:01:15.267   286   286 I tombstoned: received crash request for pid 6469
+07-06 01:01:15.270  6488  6488 I crash_dump64: performing dump of process 6450 (target tid = 6469)
+07-06 01:01:15.286   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.286   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.286   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.286   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.286  1299  2299 I FontLog : (REDACTED) Received query %s, URI %s
+07-06 01:01:15.286  1299  2299 I FontLog : (REDACTED) Query [%s] resolved to %s
+07-06 01:01:15.287   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.287   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.287   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.287   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.287   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.287  1299  2299 I FontLog : (REDACTED) Fetch %s end status %s
+07-06 01:01:15.288   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.288   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.288   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.288   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.288   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.288   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.288   956   963 W System  : A resource failed to call release. 
+07-06 01:01:15.290  1299  1435 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+07-06 01:01:15.312  1299  1435 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+07-06 01:01:15.518  6488  6488 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+07-06 01:01:15.518  6488  6488 F DEBUG   : Build fingerprint: 'google/sdk_gphone64_x86_64/emu64xa:16/BP22.250325.006/13344233:user/release-keys'
+07-06 01:01:15.518  6488  6488 F DEBUG   : Revision: '0'
+07-06 01:01:15.518  6488  6488 F DEBUG   : ABI: 'x86_64'
+07-06 01:01:15.518  6488  6488 F DEBUG   : Timestamp: 2025-07-06 01:01:15.278369732-0700
+07-06 01:01:15.518  6488  6488 F DEBUG   : Process uptime: 2s
+07-06 01:01:15.518  6488  6488 F DEBUG   : Cmdline: com.pat33.SmartExpenseTracker
+07-06 01:01:15.518  6488  6488 F DEBUG   : pid: 6450, tid: 6469, name: mqt_v_js  >>> com.pat33.SmartExpenseTracker <<<
+07-06 01:01:15.518  6488  6488 F DEBUG   : uid: 10217
+07-06 01:01:15.518  6488  6488 F DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+07-06 01:01:15.518  6488  6488 F DEBUG   : Abort message: 'terminating due to uncaught exception of type facebook::jni::JniException: com.facebook.react.common.JavascriptException: [runtime not ready]: Invariant Violation: TurboModuleRegistry.getEnforcing(...): 'RNGestureHandlerModule' could not be found. Verify that a module by this name is registered in the native binary., js engine: hermes, stack:
+07-06 01:01:15.518  6488  6488 F DEBUG   : invariant@1:167055
+07-06 01:01:15.518  6488  6488 F DEBUG   : getEnforcing@1:166898
+07-06 01:01:15.518  6488  6488 F DEBUG   : anonymous@1:1351015
+07-06 01:01:15.518  6488  6488 F DEBUG   : loadModuleImplementation@1:47929
+07-06 01:01:15.518  6488  6488 F DEBUG   : guardedLoadModule@1:47459
+07-06 01:01:15.518  6488  6488 F DEBUG   : metroRequire@1:47089
+07-06 01:01:15.518  6488  6488 F DEBUG   : anonymous@1:1350916
+07-06 01:01:15.518  6488  6488 F DEBUG   : loadModuleImplementation@1:47929
+07-06 01:01:15.518  6488  6488 F DEBUG   : guardedLoadModule@1:47459
+07-06 01:01:15.518  6488  6488 F DEBUG   : metroRequire@1:47089
+07-06 01:01:15.518  6488  6488 F DEBUG   : anonymous@1:1077398
+07-06 01:01:15.518  6488  6488 F DEBUG   : loadModuleImplementation@1:47929
+07-06 01:01:15.518  6488  6488 F DEBUG   : guardedLoadModule@1:47459
+07-06 01:01:15.518  6488  6488 F DEBUG   : metroRequire@1:47089
+07-06 01:01:15.518  6488  6488 F DEBUG   : anonymous@1:1076257
+07-06 01:01:15.518  6488  6488 F DEBUG   : loadModuleImplementation@1:47929
+07-06 01:01:15.518  6488  6488 F DEBUG   : guardedLoadModule@1:47459
+07-06 01:01:15.518  6488  6488 F DEBUG   : metroRequire@1:47089
+07-06 01:01:15.518  6488  6488 F DEBUG   : anonymous@1:1074189
+07-06 01:01:15.518  6488  6488 F DEBUG   : loadModuleImplementation@1:47929
+07-06 01:01:15.518  6488  6488 F DEBUG   : guardedLoadModule@1:47459
+07-06 01:01:15.518  6488  6488 F DEBUG   : metroRequire@1:47089
+07-06 01:01:15.518  6488  6488 F DEBUG   : anonymous@1:1073845
+07-06 01:01:15.518  6488  6488 F DEBUG   : loadModuleImplementation@1:47929
+07-06 01:01:15.518  6488  6488 F DEBUG   : guardedLoadModule@1:47459
+07-06 01:01:15.518  6488  6488 F DEBUG   : metroRequire@1:47089
+07-06 01:01:15.518  6488  6488 F DEBUG   : anonymous@1:1068074
+07-06 01:01:15.518  6488  6488 F DEBUG   : loadModuleImplementation@1:47929
+07-06 01:01:15.518  6488  6488 F DEBUG   : guardedLoadModule@1:47459
+07-06 01:01:15.518  6488  6488 F DEBUG   : metroRequire@1:47089
+07-06 01:01:15.518  6488  6488 F DEBUG   : anonymous@1:1066752
+07-06 01:01:15.518  6488  6488 F DEBUG   : loadModuleImplementation@1:47929
+07-06 01:01:15.518  6488  6488 F DEBUG   : guardedLoadModule@1:47459
+07-06 01:01:15.518  6488  6488 F DEBUG   : metroRequire@1:47089
+07-06 01:01:15.518  6488  6488 F DEBUG   : anonymous@1:1059313
+07-06 01:01:15.518  6488  6488 F DEBUG   : loadModuleImplementation@1:47929
+07-06 01:01:15.518  6488  6488 F DEBUG   : guardedLoadModule@1:47459
+07-06 01:01:15.518  6488  6488 F DEBUG   : metroRequire@1:47089
+07-06 01:01:15.518  6488  6488 F DEBUG   : anonymous@1:851229
+07-06 01:01:15.518  6488  6488 F DEBUG   : loadModuleImplementation@1:47929
+07-06 01:01:15.518  6488  6488 F DEBUG   : guardedLoadModule@1:47459
+07-06 01:01:15.518  6488  6488 F DEBUG   : metroRequire@1:47089
+07-06 01:01:15.518  6488  6488 F DEBUG   : anonymous@1:849931
+07-06 01:01:15.518  6488  6488 F DEBUG   : loadModuleImplementation@1:47929
+07-06 01:01:15.518  6488  6488 F DEBUG   : guardedLoadModule@1:47459
+07-06 01:01:15.518  6488  6488 F DEBUG   : metroRequire@1:47089
+07-06 01:01:15.518  6488  6488 F DEBUG   : anonymous@1:100308
+07-06 01:01:15.518  6488  6488 F DEBUG   : loadModuleImplementation@1:47929
+07-06 01:01:15.518  6488  6488 F DEBUG   : guardedLoadModule@1:47416
+07-06 01:01:15.518  6488  6488 F DEBUG   : metroRequire@1:47089
+07-06 01:01:15.518  6488  6488 F DEBUG   : global@1:46617
+07-06 01:01:15.518  6488  6488 F DEBUG   : 
+07-06 01:01:15.518  6488  6488 F DEBUG   : 	at com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.kt:52)
+07-06 01:01:15.518  6488  6488 F DEBUG   : 	at com.facebook.react.runtime.ReactInstance$ReactJsExceptionHandlerImpl.reportJsException(ReactInstance.java:332)
+07-06 01:01:15.518  6488  6488 F DEBUG   : 	at com.facebook.jni.NativeRunnable.run(Native Method)
+07-06 01:01:15.518  6488  6488 F DEBUG   : 	at android.os.Handler.handleCallback(Handler.java:995)
+07-06 01:01:15.518  6488  6488 F DEBUG   : 	at android.os.Handler.dispatchMessage(Handler.java:103)
+07-06 01:01:15.518  6488  6488 F DEBUG   : 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:20)
+07-06 01:01:15.518  6488  6488 F DEBUG   : 	at android.os.Looper.loopOnce(Looper.java:248)
+07-06 01:01:15.518  6488  6488 F DEBUG   : 	at android.os.Looper.loop(Looper.java:338)
+07-06 01:01:15.518  6488  6488 F DEBUG   : 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$1(MessageQueueThreadImpl.kt:175)
+07-06 01:01:15.518  6488  6488 F DEBUG   : 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$ldnZnqelhYFctGaUKkOKYj5rxo4(Unknown Source:0)
+07-06 01:01:15.518  6488  6488 F DEBUG   : 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+07-06 01:01:15.518  6488  6488 F DEBUG   : 	at java.lang.Thread.run(Thread.java:1119)'
+07-06 01:01:15.518  6488  6488 F DEBUG   :     rax 0000000000000000  rbx 0000000000001932  rcx 00007064568e7424  rdx 0000000000000006
+07-06 01:01:15.518  6488  6488 F DEBUG   :     r8  0000000000000000  r9  0000000000000000  r10 00007061092c6c80  r11 0000000000000207
+07-06 01:01:15.518  6488  6488 F DEBUG   :     r12 00007061092c6e40  r13 0000003000000008  r14 0000000000001945  r15 00007061092c6d60
+07-06 01:01:15.518  6488  6488 F DEBUG   :     rdi 0000000000001932  rsi 0000000000001945
+07-06 01:01:15.518  6488  6488 F DEBUG   :     rbp 00007061092c6d20  rsp 00007061092c6c80  rip 00007064568e7424
+07-06 01:01:15.518  6488  6488 F DEBUG   : 48 total frames
+07-06 01:01:15.518  6488  6488 F DEBUG   : backtrace:
+07-06 01:01:15.518  6488  6488 F DEBUG   :       #00 pc 000000000006a424  /apex/com.android.runtime/lib64/bionic/libc.so (abort+196) (BuildId: fcb82240218d1473de1e3d2137c0be35)
+07-06 01:01:15.518  6488  6488 F DEBUG   :       #01 pc 000000000009dc6f  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libc++_shared.so (offset 0x387c000) (BuildId: 734ab2eaa203afbb89147d313e46146617bd1a2c)
+07-06 01:01:15.518  6488  6488 F DEBUG   :       #02 pc 000000000009cb0a  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libc++_shared.so (offset 0x387c000) (BuildId: 734ab2eaa203afbb89147d313e46146617bd1a2c)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #03 pc 000000000009cf12  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libc++_shared.so (offset 0x387c000) (BuildId: 734ab2eaa203afbb89147d313e46146617bd1a2c)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #04 pc 000000000009cec7  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libc++_shared.so (offset 0x387c000) (std::terminate()+55) (BuildId: 734ab2eaa203afbb89147d313e46146617bd1a2c)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #05 pc 0000000000327c9a  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libreactnative.so (offset 0x4074000) (BuildId: 3b78676f1c1ed8c9)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #06 pc 00000000005519cf  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libreactnative.so (offset 0x4074000) (BuildId: 3b78676f1c1ed8c9)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #07 pc 0000000000384379  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libreactnative.so (offset 0x4074000) (facebook::react::JsErrorHandler::handleErrorWithCppPipeline(facebook::jsi::Runtime&, facebook::jsi::JSError&, bool, bool)+6761) (BuildId: 3b78676f1c1ed8c9)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #08 pc 000000000038262c  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libreactnative.so (offset 0x4074000) (facebook::react::JsErrorHandler::handleError(facebook::jsi::Runtime&, facebook::jsi::JSError&, bool, bool)+1372) (BuildId: 3b78676f1c1ed8c9)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #09 pc 0000000000332929  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libreactnative.so (offset 0x4074000) (BuildId: 3b78676f1c1ed8c9)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #10 pc 00000000000bc95c  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libhermes.so (offset 0x3b60000) (BuildId: 92ce7ee6e3c3614b9e7cd70fc97d611c5f1ae4d3)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #11 pc 00000000000bc59a  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libhermes.so (offset 0x3b60000) (BuildId: 92ce7ee6e3c3614b9e7cd70fc97d611c5f1ae4d3)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #12 pc 00000000000c3217  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libhermes.so (offset 0x3b60000) (BuildId: 92ce7ee6e3c3614b9e7cd70fc97d611c5f1ae4d3)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #13 pc 00000000000d384f  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libhermes.so (offset 0x3b60000) (BuildId: 92ce7ee6e3c3614b9e7cd70fc97d611c5f1ae4d3)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #14 pc 00000000000d51d8  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libhermes.so (offset 0x3b60000) (BuildId: 92ce7ee6e3c3614b9e7cd70fc97d611c5f1ae4d3)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #15 pc 00000000000d49ea  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libhermes.so (offset 0x3b60000) (BuildId: 92ce7ee6e3c3614b9e7cd70fc97d611c5f1ae4d3)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #16 pc 00000000001086af  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libhermes.so (offset 0x3b60000) (BuildId: 92ce7ee6e3c3614b9e7cd70fc97d611c5f1ae4d3)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #17 pc 00000000000af528  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libhermes.so (offset 0x3b60000) (BuildId: 92ce7ee6e3c3614b9e7cd70fc97d611c5f1ae4d3)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #18 pc 00000000000af38b  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libhermes.so (offset 0x3b60000) (BuildId: 92ce7ee6e3c3614b9e7cd70fc97d611c5f1ae4d3)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #19 pc 00000000000b065c  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libhermes.so (offset 0x3b60000) (BuildId: 92ce7ee6e3c3614b9e7cd70fc97d611c5f1ae4d3)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #20 pc 000000000032e10a  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libreactnative.so (offset 0x4074000) (BuildId: 3b78676f1c1ed8c9)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #21 pc 00000000004eeda9  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libreactnative.so (offset 0x4074000) (facebook::react::Task::execute(facebook::jsi::Runtime&, bool)+313) (BuildId: 3b78676f1c1ed8c9)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #22 pc 00000000004ec928  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libreactnative.so (offset 0x4074000) (facebook::react::RuntimeScheduler_Modern::executeTask(facebook::jsi::Runtime&, facebook::react::Task&, bool) const+56) (BuildId: 3b78676f1c1ed8c9)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #23 pc 00000000004ed2c0  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libreactnative.so (offset 0x4074000) (facebook::react::RuntimeScheduler_Modern::runEventLoopTick(facebook::jsi::Runtime&, facebook::react::Task&, std::__ndk1::chrono::time_point<std::__ndk1::chrono::steady_clock, std::__ndk1::chrono::duration<long long, std::__ndk1::ratio<1l, 1000000000l>>>)+128) (BuildId: 3b78676f1c1ed8c9)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #24 pc 00000000004ecf2a  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libreactnative.so (offset 0x4074000) (facebook::react::RuntimeScheduler_Modern::runEventLoop(facebook::jsi::Runtime&, bool)+154) (BuildId: 3b78676f1c1ed8c9)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #25 pc 000000000032c134  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libreactnative.so (offset 0x4074000) (BuildId: 3b78676f1c1ed8c9)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #26 pc 000000000052c69d  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libreactnative.so (offset 0x4074000) (BuildId: 3b78676f1c1ed8c9)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #27 pc 0000000000017202  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libfbjni.so (offset 0x3ae8000) (facebook::jni::detail::MethodWrapper<void (facebook::jni::JNativeRunnable::*)(), &facebook::jni::JNativeRunnable::run(), facebook::jni::JNativeRunnable, void>::dispatch(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*>)+66) (BuildId: 2f4b0da170c8a1af5bf245a5dba7c30a6974f2f2)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #28 pc 0000000000017143  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/base.apk!libfbjni.so (offset 0x3ae8000) (facebook::jni::detail::FunctionWrapper<void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*>), facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*, void>::call(_JNIEnv*, _jobject*, void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*>))+51) (BuildId: 2f4b0da170c8a1af5bf245a5dba7c30a6974f2f2)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #29 pc 00000000002de893  /system/framework/x86_64/boot.oat (art_jni_trampoline+131) (BuildId: 9083d3c301e7d514bb074e4d021820fc53775ff6)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #30 pc 00000000004e44cc  /system/framework/x86_64/boot-framework.oat (android.os.Handler.dispatchMessage+76) (BuildId: cab483f4fac019f56940298765ac90293c43245d)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #31 pc 00000000002097ed  /apex/com.android.art/lib64/libart.so (nterp_helper+3837) (BuildId: e14bfa0cec1c4f196bc6c94a34282478)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #32 pc 00000000003aad0a  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/oat/x86_64/base.vdex (com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage+10)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #33 pc 000000000051ab05  /system/framework/x86_64/boot-framework.oat (android.os.Looper.loopOnce+1109) (BuildId: cab483f4fac019f56940298765ac90293c43245d)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #34 pc 000000000051a5fb  /system/framework/x86_64/boot-framework.oat (android.os.Looper.loop+235) (BuildId: cab483f4fac019f56940298765ac90293c43245d)
+07-06 01:01:15.519  6488  6488 F DEBUG   :       #35 pc 0000000000208995  /apex/com.android.art/lib64/libart.so (nterp_helper+165) (BuildId: e14bfa0cec1c4f196bc6c94a34282478)
+07-06 01:01:15.520  6488  6488 F DEBUG   :       #36 pc 00000000003ab080  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/oat/x86_64/base.vdex (com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$1+76)
+07-06 01:01:15.520  6488  6488 F DEBUG   :       #37 pc 0000000000208928  /apex/com.android.art/lib64/libart.so (nterp_helper+56) (BuildId: e14bfa0cec1c4f196bc6c94a34282478)
+07-06 01:01:15.520  6488  6488 F DEBUG   :       #38 pc 00000000003aafb4  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/oat/x86_64/base.vdex (com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$ldnZnqelhYFctGaUKkOKYj5rxo4+0)
+07-06 01:01:15.520  6488  6488 F DEBUG   :       #39 pc 0000000000208928  /apex/com.android.art/lib64/libart.so (nterp_helper+56) (BuildId: e14bfa0cec1c4f196bc6c94a34282478)
+07-06 01:01:15.520  6488  6488 F DEBUG   :       #40 pc 00000000003aadd8  /data/app/~~66UPAKLFdaKcHYjH4eTDfA==/com.pat33.SmartExpenseTracker-qaPChqIbJwC8NwF2S-qLIw==/oat/x86_64/base.vdex (com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run+4)
+07-06 01:01:15.520  6488  6488 F DEBUG   :       #41 pc 00000000000a9f57  /system/framework/x86_64/boot.oat (java.lang.Thread.run+71) (BuildId: 9083d3c301e7d514bb074e4d021820fc53775ff6)
+07-06 01:01:15.520  6488  6488 F DEBUG   :       #42 pc 0000000000211e94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+756) (BuildId: e14bfa0cec1c4f196bc6c94a34282478)
+07-06 01:01:15.520  6488  6488 F DEBUG   :       #43 pc 00000000004621c5  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+181) (BuildId: e14bfa0cec1c4f196bc6c94a34282478)
+07-06 01:01:15.520  6488  6488 F DEBUG   :       #44 pc 00000000008f42ec  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1388) (BuildId: e14bfa0cec1c4f196bc6c94a34282478)
+07-06 01:01:15.520  6488  6488 F DEBUG   :       #45 pc 00000000008f3d78  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc(void*)+8) (BuildId: e14bfa0cec1c4f196bc6c94a34282478)
+07-06 01:01:15.520  6488  6488 F DEBUG   :       #46 pc 000000000007ac5f  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+63) (BuildId: fcb82240218d1473de1e3d2137c0be35)
+07-06 01:01:15.520  6488  6488 F DEBUG   :       #47 pc 000000000006d94d  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+61) (BuildId: fcb82240218d1473de1e3d2137c0be35)
+07-06 01:01:15.540   286   286 E tombstoned: Tombstone written to: tombstone_10
+07-06 01:01:15.541   691  6492 W ActivityTaskManager:   Force finishing activity com.pat33.SmartExpenseTracker/.MainActivity
+07-06 01:01:15.541   691  6493 I DropBoxManagerService: add tag=data_app_native_crash isTagEnabled=true flags=0x2
+07-06 01:01:15.543   956   997 V WindowManagerShell: Transition requested (#42): android.os.BinderProxy@955fb46 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=59 effectiveUid=10217 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pat33.SmartExpenseTracker/.MainActivity } baseActivity=ComponentInfo{com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity} topActivity=ComponentInfo{com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity} origActivity=null realActivity=ComponentInfo{com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity} numActivities=1 lastActiveTime=1755099 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@a4f8107} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{f944234 com.pat33.SmartExpenseTracker.MainActivity} launchCookies=[android.os.BinderProxy@5e749d4] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(329, 830 - 952, 2110) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1280, 2856) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 16, debugId = 42 }
+07-06 01:01:15.544   535  1109 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-06 01:01:15.546  6450  6450 W unknown:BridgelessReact: ReactHost{0}.onHostPause(activity)
+07-06 01:01:15.546  6450  6450 W unknown:BridgelessReact: ReactContext.onHostPause()
+07-06 01:01:15.547   691   792 I DropBoxManagerService: add tag=SYSTEM_TOMBSTONE_PROTO_WITH_HEADERS isTagEnabled=true flags=0x4
+07-06 01:01:15.548   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:15.550  1116  1116 D ViewRootImpl: Skipping stats log for color mode
+07-06 01:01:15.551   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:15.551  1116  1116 D StatsLog: LAUNCHER_ONRESUME
+07-06 01:01:15.551   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:15.552   956   997 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=true, height=603
+07-06 01:01:15.553   535   535 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-06 01:01:15.553  1116  1116 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+07-06 01:01:15.559  1116  1116 D BaseDepthController: setSurface:
+07-06 01:01:15.559  1116  1116 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+07-06 01:01:15.559  1116  1116 D BaseDepthController: 	mBaseSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0x228a8bb
+07-06 01:01:15.565   691   805 W InputDispatcher: channel '7da75fe com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity' ~ Consumer closed input channel or an error occurred.  events=0x9
+07-06 01:01:15.566   691   805 E InputDispatcher: channel '7da75fe com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity' ~ Channel is unrecoverably broken and will be disposed!
+07-06 01:01:15.566   691   805 I WindowManager: WINDOW DIED Window{7da75fe u0 com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity}
+07-06 01:01:15.568  1116  1116 I NotificationListener: Handling notification state refresh for com.google.android.packageinstaller#0
+07-06 01:01:15.568  1116  1116 I NotificationListener: Handling notification state refresh for com.google.android.packageinstaller#0
+07-06 01:01:15.568  1116  1116 I NotificationListener: Handling notification state refresh for com.android.vending#0
+07-06 01:01:15.568  1116  1116 I NotificationListener: Handling notification state refresh for com.android.systemui#0
+07-06 01:01:15.568  1116  1116 I NotificationListener: Handling notification state refresh for android#0
+07-06 01:01:15.568  1116  1172 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/1/[-1,-1]/[1,1]
+07-06 01:01:15.570   462   462 I Zygote  : Process 6450 exited due to signal 6 (Aborted)
+07-06 01:01:15.571   691  1849 I ImeTracker: com.pat33.SmartExpenseTracker:14345cfd: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+07-06 01:01:15.571   691  1849 I ImeTracker: com.pat33.SmartExpenseTracker:14345cfd: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-06 01:01:15.573   691  1844 I ActivityManager: Process com.pat33.SmartExpenseTracker (pid 6450) has died: prcp CRE 
+07-06 01:01:15.574   691   727 I libprocessgroup: Removed cgroup /sys/fs/cgroup/apps/uid_10217/pid_6450
+07-06 01:01:15.577   956  1317 V WindowManagerShell: onTransitionReady(transaction=2967822406239)
+07-06 01:01:15.578   956   997 V WindowManagerShell: onTransitionReady (#42) android.os.BinderProxy@955fb46: {id=42 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[
+07-06 01:01:15.578   956   997 V WindowManagerShell:         {m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x684385d sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0 taskParent=-1},
+07-06 01:01:15.578   956   997 V WindowManagerShell:         {m=CLOSE f=NONE leash=Surface(name=Task=59)/@0x46685d2 sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0 taskParent=-1},
+07-06 01:01:15.578   956   997 V WindowManagerShell:         {m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{b98646d showWhenLocked=false})/@0xed926a3 sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0}
+07-06 01:01:15.578   956   997 V WindowManagerShell:     ]}
+07-06 01:01:15.578   956   997 V WindowManagerShell: Playing animation for (#42) android.os.BinderProxy@955fb46@0
+07-06 01:01:15.578   956   997 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+07-06 01:01:15.579   956   997 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=42 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x684385d sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0 taskParent=-1},{m=CLOSE f=NONE leash=Surface(name=Task=59)/@0x46685d2 sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0 taskParent=-1},{m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{b98646d showWhenLocked=false})/@0xed926a3 sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0}]}
+07-06 01:01:15.579   956   997 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=undefined independent=true modes=[CLOSE,TO_BACK] flags=IN_TASK_WITH_EMBEDDED_ACTIVITY mustBeTask=false order=ANY topActivity=null launchCookie=null taskFragmentToken=android.os.BinderProxy@75077b1 windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@5a11496, appThread = android.app.IApplicationThread$Stub$Proxy@bdfa817, debugName = overlayBackTransition }}
+07-06 01:01:15.579   956   997 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@c3bc404, appThread = android.app.IApplicationThread$Stub$Proxy@a43dded, debugName = LauncherToDream }}
+07-06 01:01:15.579   956   997 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@ed1e422, appThread = android.app.IApplicationThread$Stub$Proxy@72caeb3, debugName = QuickstepLaunchHome }}
+07-06 01:01:15.579  1612  1921 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-06 01:01:15.579   956   997 D RemoteTransitionHandler: Found filterPair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@ed1e422, appThread = android.app.IApplicationThread$Stub$Proxy@72caeb3, debugName = QuickstepLaunchHome }}
+07-06 01:01:15.579  1612  1921 I AiAiEcho: EchoTargets: 
+07-06 01:01:15.579  1612  1921 I AiAiEcho: Filtered by AiAi flag check: 
+07-06 01:01:15.579  1612  1921 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-06 01:01:15.579   956   997 V WindowManagerShell:  Delegate animation for (#42) to RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@ed1e422, appThread = android.app.IApplicationThread$Stub$Proxy@72caeb3, debugName = QuickstepLaunchHome }
+07-06 01:01:15.579  1612  1921 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-06 01:01:15.579   691   792 I BootReceiver: Copying /data/tombstones/tombstone_10 to DropBox (SYSTEM_TOMBSTONE)
+07-06 01:01:15.580   691   792 I DropBoxManagerService: add tag=SYSTEM_TOMBSTONE isTagEnabled=true flags=0x6
+07-06 01:01:15.580   691   769 I WindowManager: WIN DEATH: Window{7da75fe u0 com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity EXITING}
+07-06 01:01:15.580  1612  1921 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-06 01:01:15.580  1116  1116 D SsBaseTemplateCard: No text view can be set up
+07-06 01:01:15.581  1116  1116 D SsBaseTemplateCard: Passed-in item info is null
+07-06 01:01:15.581  1116  1116 D SsBaseTemplateCard: Passed-in item info is null
+07-06 01:01:15.581  1116  1116 D SsBaseTemplateCard: Passed-in item info is null
+07-06 01:01:15.581  1116  1116 I SsBaseTemplateCard: Secondary card pane is null
+07-06 01:01:15.583  1116  1116 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
+07-06 01:01:15.583  1116  1116 D StateManager: 	at com.android.quickstep.util.ScalingWorkspaceRevealAnim.<init>(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:39)
+07-06 01:01:15.583  1116  1116 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:168)
+07-06 01:01:15.583  1116  1116 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager$WallpaperOpenLauncherAnimationRunner.onAnimationStart(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:17)
+07-06 01:01:15.583   956   997 V WindowManagerShell:  animated by com.android.wm.shell.transition.RemoteTransitionHandler@c629068
+07-06 01:01:15.584  1116  1116 D b/311077782: LauncherAnimationRunner.setAnimation
+07-06 01:01:15.587   691   719 V WindowManager: Unknown focus tokens, dropping reportFocusChanged
+07-06 01:01:15.588   691   853 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-06 01:01:15.589   691   853 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-06 01:01:15.589   691   853 D InetDiagMessage: Destroyed live tcp sockets for uids={10217} in 4ms
+07-06 01:01:15.590   691   853 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-06 01:01:15.590   691   853 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-06 01:01:15.590   691   853 D InetDiagMessage: Destroyed live tcp sockets for uids={20217} in 1ms
+07-06 01:01:15.594   691   815 I ImeTracker: com.google.android.apps.nexuslauncher:fad6b85a: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+07-06 01:01:15.595  1116  1116 D InsetsController: hide(ime(), fromIme=false)
+07-06 01:01:15.595  1116  1116 I ImeTracker: com.google.android.apps.nexuslauncher:fad6b85a: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+07-06 01:01:15.595   691   716 V WindowManager: Sent Transition (#42) createdAt=07-06 01:01:15.541 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=59 effectiveUid=10217 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pat33.SmartExpenseTracker/.MainActivity } baseActivity=ComponentInfo{com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity} topActivity=ComponentInfo{com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity} origActivity=null realActivity=ComponentInfo{com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity} numActivities=1 lastActiveTime=1755099 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{bc63c9b Task{3466e87 #59 type=standard A=10217:com.pat33.SmartExpenseTracker}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{4c13838 com.pat33.SmartExpenseTracker.MainActivity} launchCookies=[android.os.BinderProxy@8b63011] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(329, 830 - 952, 2110) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1280, 2856) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 16, debugId = 42 }
+07-06 01:01:15.596   691   716 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+07-06 01:01:15.596   691   716 V WindowManager:     info={id=42 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[
+07-06 01:01:15.596   691   716 V WindowManager:         {WCT{RemoteToken{1041690 Task{8740a57 #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x7f5c845 sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0 taskParent=-1},
+07-06 01:01:15.596   691   716 V WindowManager:         {WCT{RemoteToken{bc63c9b Task{3466e87 #59 type=standard A=10217:com.pat33.SmartExpenseTracker}}} m=CLOSE f=NONE leash=Surface(name=Task=59)/@0xde52f95 sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0 taskParent=-1},
+07-06 01:01:15.596   691   716 V WindowManager:         {m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{b98646d showWhenLocked=false})/@0x83044bf sb=Rect(0, 0 - 1280, 2856) eb=Rect(0, 0 - 1280, 2856) epz=Point(1280, 2856) d=0}
+07-06 01:01:15.596   691   716 V WindowManager:     ]}
+07-06 01:01:15.596  1116  1172 W HWUI    : Image decoding logging dropped!
+07-06 01:01:15.597  1453  1453 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+07-06 01:01:15.598   691   719 W ActivityManager: setHasOverlayUi called on unknown pid: 6450
+07-06 01:01:15.598  1453  1453 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+07-06 01:01:15.598  1453  1453 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+07-06 01:01:15.599  1453  1453 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+07-06 01:01:15.600   691   912 D BackgroundInstallControlService: Package event received: 0
+07-06 01:01:15.600   691  1844 I ImeTracker: system_server:d0fe08f4: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+07-06 01:01:15.601   691  2466 W PackageConfigPersister: App-specific configuration not found for packageName: com.google.android.apps.nexuslauncher and userId: 0
+07-06 01:01:15.602   691   719 I ImeTracker: system_server:d0fe08f4: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-06 01:01:15.603   535   535 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-06 01:01:15.648  1116  1135 W System  : A resource failed to call release. 
+07-06 01:01:15.648  1116  1135 W System  : A resource failed to call release. 
+07-06 01:01:15.648  1116  1135 W System  : A resource failed to call release. 
+07-06 01:01:15.648  1116  1135 W System  : A resource failed to call release. 
+07-06 01:01:15.649  1116  1135 W System  : A resource failed to call release. 
+07-06 01:01:15.649  1116  1135 W System  : A resource failed to call release. 
+07-06 01:01:15.649  1116  1135 W System  : A resource failed to call release. 
+07-06 01:01:16.459  1114  1295 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+07-06 01:01:16.587  1116  1116 D ScalingWorkspaceRevealAnim: alpha of workspace at the end of animation: 1.0
+07-06 01:01:16.588   956   997 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#42) android.os.BinderProxy@955fb46@0
+07-06 01:01:16.590   691   716 V WindowManager: Finish Transition (#42): created at 07-06 01:01:15.541 collect-started=0.088ms request-sent=0.192ms started=3.699ms ready=7.585ms sent=31.919ms commit=17.883ms finished=1048.246ms
+07-06 01:01:16.594   691  1850 E IPCThreadState: Binder transaction failure. id: 574620, BR_*: 29189, error: -22 (Invalid argument)
+07-06 01:01:16.594   691  1850 W ActivityManager: pid 691 system sent binder code 7 with flags 1 to frozen apps and got error -32
+07-06 01:01:16.594   691  1850 W WindowManager: Exception thrown during dispatchAppVisibility Window{7da75fe u0 com.pat33.SmartExpenseTracker/com.pat33.SmartExpenseTracker.MainActivity EXITING}
+07-06 01:01:16.594   691  1850 W WindowManager: android.os.DeadObjectException
+07-06 01:01:16.594   691  1850 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:592)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:557)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3151)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1311)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:389)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:6650)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5561)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1391)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:1029)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:496)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:261)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:223)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1426)
+07-06 01:01:16.594   691  1850 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1365)
+07-06 01:01:16.595   691  1850 W Process : Unable to open /proc/6450/status
+07-06 01:01:16.600   956   997 V WindowManagerShell: Track 0 became idle
+07-06 01:01:16.600   956   997 V WindowManagerShell: All active transition animations finished
+07-06 01:01:16.600  1116  1116 D RecentsView: onTaskRemoved: 59, not handling task stack changes
+07-06 01:01:16.601  1116  1116 D RecentsView: onTaskRemoved: 59, not handling task stack changes
+07-06 01:01:16.604   691  4877 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+07-06 01:01:16.606   691  4877 I EGL_emulation: Opening libGLESv2_emulation.so
+07-06 01:01:16.617   691  4877 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-06 01:01:16.617   691  4877 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+07-06 01:01:16.636   535   535 E BpTransactionCompletedListener: Failed to transact (-32)
+07-06 01:01:16.650  1116  1116 W FrameTracker: Missed App frame:UNKNOWN: 3, 107424, 19673042, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.650  1116  1116 W FrameTracker: Missed SF frame:UNKNOWN: 3, 107424, 19673042, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.650  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107439, 29497036, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.650  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107454, 30790945, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.650  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107469, 24853028, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.650  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107484, 25609838, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.650  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107499, 25178299, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.650  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107514, 25680570, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.650  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107529, 24761030, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.650  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107544, 25215166, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107559, 25038938, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107567, 25354159, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107575, 25480464, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107583, 25191696, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107591, 25575393, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107599, 25059573, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107607, 25480433, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107615, 24831913, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107623, 24663604, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107631, 24962835, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107639, 25287981, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107647, 24693321, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107655, 24838026, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107663, 25764155, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107671, 25396891, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107686, 25660842, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107694, 25132751, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107702, 24736083, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107710, 25767256, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107718, 24832698, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107726, 24967551, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107734, 24701755, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107742, 25155475, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107750, 24829994, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107758, 25097374, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107766, 24902698, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107774, 25316165, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107782, 24628223, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107790, 25293428, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107798, 25333086, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107806, 24776670, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107814, 25786961, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107822, 24605400, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107830, 26100283, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107838, 25187200, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107846, 24723562, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107854, 25315139, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107862, 24984342, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107870, 26004879, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107878, 25696596, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:16.651  1116  1116 W FrameTracker: Missed SF frame:JANK_COMPOSER, 107886, 26334555, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+07-06 01:01:17.537   470  4808 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 5404096
+07-06 01:01:17.537   470  4808 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: stopping PCM stream
+07-06 01:01:17.537   470  4808 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: joining consumeThread
+07-06 01:01:17.537   470  6449 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: File descriptor in bad state' (-1)
+07-06 01:01:17.538   470  6449 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+07-06 01:01:17.538   470  6449 D android.hardware.audio@7.1-impl.ranchu: consumeThread: exiting
+07-06 01:01:18.510   691  1741 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-06 01:01:26.462  1114  1295 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
