@@ -46,7 +46,9 @@ app.use('/api/auth', passwordResetRoutes);
 app.use('/api/recurring', recurringRoutes);
 app.use('/api/coach', coachRoutes);
 app.use('/api/notifications', notificationRoutes);
-
+app.get('/health', (req, res) => {
+  res.send('App is running on Vercel');
+});
 // Basic route
 app.get('/', (req, res) => {
   res.json({
